@@ -1,0 +1,18 @@
+.checkbox {
+	appearance: none;
+ }
+ .check-icon {
+	display: inline-block;
+	margin-right: 5px;
+	width: 16px;
+	height: 15px;
+	border: 1px solid #212121;
+	border-radius: 2px;
+ }
+ .checkbox:checked + .check-icon {
+	border-color: var(--accent-color);
+	background: var(--accent-color);
+	background-image: url(../img/icon\ check.svg);
+	background-size: contain;
+	background-origin: border-box;
+ }

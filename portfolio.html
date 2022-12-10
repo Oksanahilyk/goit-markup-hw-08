@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css"/>
+    <title>Home work Portfolio</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="page-header">
+      <div class="container main-nav">
+        <a href="#" class="logo">
+          Web<span class="logo-web">Studio</span>
+        </a>
+        <nav class="nav-links">
+          <ul class="list site-nav">
+            <li class="site-nav__item">
+              <a class="link site-nav__link-secondary" href="./index.html">Студія</a>
+            </li>
+            <li class="site-nav__item">
+              <a class="link site-nav__link-current" href="#">
+                Портфоліо
+              </a>
+            </li>
+            <li class="site-nav__item">
+              <a class="link site-nav__link-secondary" href="#">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="list site-contacts">
+          <li class="site-contacts__item">
+            <a class="site-contacts__contact" href="mailto:info@devstudio.com">
+              <svg class="site-contacts__icon" width="16" height="12">
+                <use href="./img/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="site-contacts__item">
+            <a class="site-contacts__contact" href="tel:+380961111111">
+              <svg class="site-contacts__icon" width="10" height="16">
+                <use href="./img/icons.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- main -->
+    <main>
+      <section class="gallary section">
+        <div class="container">
+          <h1 hidden>Наші проєкти</h1>
+          <ul class="buttons button-list">
+            <li class="button-item">
+              <button type="button" class="button-filter button-all">
+                Усі
+              </button>
+            </li>
+            <li class="button-item">
+              <button type="button" class="button-filter button-site">
+                Веб-сайти
+              </button>
+            </li>
+            <li class="button-item">
+              <button type="button" class="button-filter button-appendices">
+                Додатки
+              </button>
+            </li>
+            <li class="button-item">
+              <button type="button" class="button-filter button-design">
+                Дизайн
+              </button>
+            </li>
+            <li class="button-item">
+              <button type="button" class="button-filter button-marketing">
+                Маркетинг
+              </button>
+            </li>
+          </ul>
+
+          <ul class="list gallary-project">
+            <li class="gallary-card">
+              <a class="list link gallary-link" href="#">
+                <div class="gallary-thumb">
+                  <p class="discription">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                  <img
+                  class="gallary-photo"
+                  src="./img/technocryk.jpg"
+                  alt="веб-сайт"
+                  width="370"
+                />
+                </div>
+                
+                <div class="gallary-projects">
+                  <h2 class="gallary-title">Технокряк</h2>
+                  <p class="gallary-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="gallary-card">
+              <a class="list link gallary-link" href="#">
+                <div class="gallary-thumb">
+                  <p class="discription">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                  <img
+                  class="gallary-photo"
+                  src="./img/poster.jpg"
+                  alt="дизайн"
+                  width="370"
+                />
+                </div>
+                
+                <div class="gallary-projects">
+                  <h2 class="gallary-title">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="gallary-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="gallary-card">
+              <a class="list link gallary-link" href="#">
+                <div class="gallary-thumb">
+                  <p class="discription">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                  <img
+                  class="gallary-photo"
+                  src="./img/restaurant.jpg"
+                  alt="додаток"
+                  width="370"
+                />
+                </div>
+                
+                <div class="gallary-projects">
+                  <h2 class="gallary-title">Ресторан Seafood</h2>
+                  <p class="gallary-text">Додаток</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="gallary-card">
+              <a class="list link gallary-link" href="#">
+                <div class="gallary-thumb">
+                  <p class="discription">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                  <img
+                  class="gallary-photo"
+                  src="./img/project-prime.jpg"
+                  alt="маркетинг"
+                  width="370"
+                />
+                </div>
+                
+                <div class="gallary-projects">
+                  <h2 class="gallary-title">Проєкт Prime</h2>
+                  <p class="gallary-text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="gallary-card">
+              <a class="list link gallary-link" href="#">
+                <div class="gallary-thumb">
+                  <p class="discription">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                  <img
+                  class="gallary-photo"
+                  src="./img/project-boxes.jpg"
+                  alt="додаток"
+                  width="370"
+                />
+                </div>
+                
+                <div class="gallary-projects">
+                  <h2 class="gallary-title">Проєкт Boxes</h2>
+                  <p class="gallary-text">Додаток</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="gallary-card">
+              <a class="list link gallary-link" href="#">
+                <div class="gallary-thumb">
+                  <p class="discription">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                  <img
+                  class="gallary-photo"
+                  src="./img/Inspiration.jpg"
+                  alt="веб-сайт"
+                  width="370"
+                />
+                </div>
+                
+                <div class="gallary-projects">
+                  <h2 class="gallary-title">Inspiration has no Borders</h2>
+                  <p class="gallary-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="gallary-card">
+              <a class="list link gallary-link" href="#">
+                <div class="gallary-thumb">
+                  <p class="discription">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                  <img
+                  class="gallary-photo"
+                  src="./img/magazine.jpg"
+                  alt="дизайн"
+                  width="370"
+                />
+                </div>
+               
+                <div class="gallary-projects">
+                  <h2 class="gallary-title">Видання Limited Edition</h2>
+                  <p class="gallary-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="gallary-card">
+              <a class="list link gallary-link" href="#">
+                <div class="gallary-thumb">
+                  <p class="discription">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                  <img
+                  class="gallary-photo"
+                  src="./img/project-lab.jpg"
+                  alt="маркетинг"
+                  width="370"
+                />
+                </div>
+                
+                <div class="gallary-projects">
+                  <h2 class="gallary-title">Проєкт LAB</h2>
+                  <p class="gallary-text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="gallary-card">
+              <a class="list link gallary-link" href="#">
+                <div class="gallary-thumb">
+                  <p class="discription">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                  <img
+                  class="gallary-photo"
+                  src="./img/growing-bussines.jpg"
+                  alt="додаток"
+                  width="370"
+                />
+                </div>
+               
+                <div class="gallary-projects">
+                  <h2 class="gallary-title">Growing Business</h2>
+                  <p class="gallary-text">Додаток</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer section">
+      <div class="container container-footer">
+        <div class="all-block">
+          <div class="logo-block">
+            <a href="#" class="logo webstudio">
+              Web<span class="logo-studio">Studio</span>
+            </a>
+                     
+          <div class="contact-social">
+            <address class="contact-block">
+              <ul class="list">
+                <li class="item-contact">
+                  <a
+                    class="address"
+                    href="https://goo.gl/maps/8CbtvmyLUksSTkxB8"
+                    target="_blank"
+                  >
+                    м. Київ, пр-т Лесі Українки, 26
+                  </a>
+                </li>
+                <li class="item-contact">
+                  <a class="footer-contact" href="mailto:info@devstudio.com">
+                    info@devstudio.com
+                  </a>
+                </li>
+                <li class="item-contact">
+                  <a class="footer-contact" href="tel:+380961111111">
+                    +38 096 111 11 11
+                  </a>
+                </li>
+              </ul>
+            </address>
+          </div>
+        </div>
+            <div class="icon-block">
+              <strong class="title-invitation">приєднуйтесь</strong>
+              <ul class="social-icon list">
+                <li class="social-icon__item">
+                  <a href="" class="social-link link">
+                    <svg class="social-invitation" width="20" height="20">
+                      <use href="./img/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-icon__item">
+                  <a href="" class="social-link link">
+                    <svg class="social-invitation" width="20" height="20">
+                      <use href="./img/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-icon__item">
+                  <a href="" class="social-link link">
+                    <svg class="social-invitation" width="20" height="20">
+                      <use href="./img/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-icon__item">
+                  <a href="" class="social-link link">
+                    <svg class="social-invitation" width="20" height="20">
+                      <use href="./img/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+                      
+          <form class="form">
+            <div class="form-field">
+              <label for="mail" class="form-mail">Підпишіться на розсилку</label>
+              <input type="email" name="mail" id="mail" class="form-input" placeholder="E-mail"/>
+            </div>
+              <button type="submit" class="submit">
+                <svg class="mail-send" width="24" height="24">
+                  <use href="./img/icons.svg#icon-icon-send"></use>
+                </svg>
+                Підписатися</button>
+            </form>
+          </div>
+
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,131 @@
+.footer {
+	background: var(--background-color-dark);
+	padding-top: 60px;
+	padding-bottom: 60px;
+ }
+ 
+ .footer-contact {
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: calc(24 / 14);
+	text-decoration: none;
+	letter-spacing: 0.03em;
+	color: var(--color-transparent);
+ }
+ .li .item-contact {
+	display: block;
+ }
+ 
+ .item-contact {
+	margin-bottom: 9px;
+ }
+ 
+ .item-contact:last-child {
+	margin-bottom: 0px;
+ }
+ 
+ .footer-contact {
+	&:hover, &:focus {
+		color: var(--accent-color);
+	 }
+ }
+  
+ /* стилі адреси і контактів */
+ .address {
+	color: var(--primary-white-color);
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: calc(24 / 14);
+	text-decoration: none;
+	letter-spacing: 0.03em;
+ }
+ .address {
+	&:hover, &:focus {
+		color: var(--accent-color);
+	 }
+ }
+ 
+  .container-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+ }
+ .all-block {
+	display: flex;
+	align-items: baseline;
+ }
+ .logo-block {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+ }
+ .webstudio {
+	display: block;
+	margin-bottom: 20px;
+	margin-right: 135px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+ }
+
+ .contact-block {
+	display: flex;
+	margin-right: 70px;
+ }
+	
+ .address-list {
+	display: flex;
+ }
+ .icon-block {
+	display: flex;
+	flex-direction: column;
+ }
+ .invitation-block {
+	display: flex;
+ }
+ .invitation-list {
+	display: flex;
+ justify-content: center;
+ align-items: center;
+ }
+ 
+ .invitation-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+ .title-invitation {
+	margin-bottom: 20px;
+ font-family: var(--main-font);
+ font-style: normal;
+ font-weight: 700;
+ font-size: 14px;
+ line-height: calc(16 / 14);
+ letter-spacing: 0.03em;
+ text-transform: uppercase;
+ color: #FFFFFF;
+ }
+ .social-icon__item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 44px;
+	height: 44px;
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 50%;
+ }
+ .social-invitation + .social-invitation {
+	margin-left: 10px;
+ }
+ .social-invitation {
+	&:hover, &:focus {
+		background: var(--accent-color);
+	 }
+ }
+ 
+ .social-invitation {
+	fill: var(--primary-white-color);
+ }
