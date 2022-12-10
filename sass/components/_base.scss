@@ -24,27 +24,30 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
+
 .section {
 	padding: 60px 0px
 	// padding: 94px 0px;
 	margin: auto;
  }
+
 //  phone screen
-// @media screen and (min-width: 480px) {
-// 	width: 480px;
-// }
+@media screen and (min-width: 480px) {
+	width: 480px;
+}
  
 // tablet screen
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
 	width: 768px;
-	padding: 60px 0px;
+	// padding: 60px 0px;
 }
 
 // desktop screen
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
 	width: 1200px;
 	padding: 94px 0px;
 }
+
   
  .link {
 	color: var(--title-text-color);

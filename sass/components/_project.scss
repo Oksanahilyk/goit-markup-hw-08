@@ -1,5 +1,9 @@
 .project {
-	padding-top: 0px;
+	display: none;
+   padding-top: 0px;
+ }
+ @media screen and (min-width: 1200px) {
+	display: ;
  }
  .project__title {
 	margin-bottom: 50px;
