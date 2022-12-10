@@ -59,6 +59,20 @@
             </a>
           </li>
         </ul>
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="mobile-close" width="40" height="40">
+          <use href="./img/icons.svg#icon-menu_40px"></use>
+            <!-- <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            ></path> -->
+          </svg>
+        </button>
       </div>
     </header>
     <!-- main -->
@@ -168,9 +182,9 @@
         </div>
       </section>
 
-      <section class="team section">
-        <div class="container container-team">
-          <h2 class="team__title">Наша команда</h2>
+      <!-- <div class="container container-team"> -->
+      <section class="container team section">
+        <h2 class="team__title">Наша команда</h2>
           <ul class="list team-list">
             <li class="card">
               <img
@@ -348,8 +362,8 @@
               </div>
             </li>
           </ul>
-        </div>
-      </section> -->
+       </section>
+      </div>
 
       <section class="client section">
         <div class="container container-client">
@@ -525,10 +539,7 @@
     <input type="checkbox" name="policy" id="policy" class="checkbox">
   <span class="check-icon"></span>
     Погоджуюся з розсилкою та приймаю <a href="#" class="contract">Умови договору</a></label>
-  
-
-  
-</div>
+  </div>
   
           <button type="submit" class="submit-call">Відправити</button>
         </form>
@@ -538,7 +549,46 @@
           </svg>
           </div>
       </div>
-    </div> -->
+    </div>
+    <!-- Мобільне меню -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg class="mobile-close"
+          width="40"
+          height="40"
+        >
+        <use href="./img/icons.svg#icon-close_40px"></use>
+          <!-- <path
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path> -->
+        </svg>
+      </button>
+
+      <ul class="mobile-nav list">
+        <li class="mobile-nav__menu"><a href="" class="link mobile-nav__link-current">Студія</a></li>
+        <li class="mobile-nav__menu"><a href="" class="link mobile-nav__link-secondary">Портфоліо</a></li>
+        <li class="mobile-nav__menu"><a href="" class="link mobile-nav__link">Контакти</a></li>
+        </ul>
+        <ul class="mobile-contacts list">
+          <li class="mobile-contacts__item"><a href="tel.:+380961111111" class="mobile-tel link">+38 096 111 11 11</a></li>
+          <li class="mobile-contacts__item"><a href="mailto:info@devstudio.com" class="mobile-mail link">info@devstudio.com</a></li>
+        </ul>
+        <ul class="mobile-cocials list">
+          <li class="mobile-cocials__item"><a href="" class="mobile-cocials__link link">Instagram</a></li>
+          <li class="mobile-cocials__item"><a href="" class="mobile-cocials__link link">Twitter</a></li>
+          <li class="mobile-cocials__item"><a href="" class="mobile-cocials__link link">Facebook</a></li>
+          <li class="mobile-cocials__item"><a href="" class="mobile-cocials__link link">LinkedIn</a></li>
+        </ul>
+    </div>
     <script src="./js/modal.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>

@@ -1,7 +1,7 @@
 .client__title {
-	margin-bottom: 50px;
-	font-size: 36px;
-	line-height: calc(42 / 36);
+	margin-bottom: 30px;
+	font-size: 28px;
+	line-height: calc(33 / 28);
 	letter-spacing: 0.03em;
 	text-align: center;
 	color: var(--title-text-color);
@@ -11,6 +11,7 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+	gap: 30px;
  }
  .client-item a {
 	display: flex;
@@ -36,9 +37,10 @@
 	width: 170px;
 	height: 92px;
  }
- .client-item + .client-item {
-	margin-left: 30px;
- }
+//  .client-item + .client-item {
+// 	margin-left: 30px;
+	
+//  }
  
  .client-logo {
 	width: 106px;

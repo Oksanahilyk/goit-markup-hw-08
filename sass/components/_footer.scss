@@ -1,7 +1,7 @@
 .footer {
 	background: var(--background-color-dark);
-	padding-top: 60px;
-	padding-bottom: 60px;
+	// padding-top: 60px;
+	// padding-bottom: 60px;
  }
  
  .footer-contact {
@@ -10,15 +10,18 @@
 	font-weight: 400;
 	font-size: 14px;
 	line-height: calc(24 / 14);
+	text-align: center;
 	text-decoration: none;
 	letter-spacing: 0.03em;
 	color: var(--color-transparent);
  }
- .li .item-contact {
-	display: block;
- }
+//  .li .item-contact {
+// 	// display: block;
+//  }
  
  .item-contact {
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 9px;
  }
  
@@ -40,6 +43,7 @@
 	font-weight: 400;
 	font-size: 14px;
 	line-height: calc(24 / 14);
+	text-align: center;
 	text-decoration: none;
 	letter-spacing: 0.03em;
  }
@@ -49,31 +53,35 @@
 	 }
  }
  
-  .container-footer {
-	display: flex;
-	justify-content: space-between;
-	align-items: baseline;
- }
+//   .container-footer {
+	// display: flex;
+// 	flex-direction: column;
+// 	justify-content: space-between;
+// 	align-items: center;
+//  }
  .all-block {
 	display: flex;
-	align-items: baseline;
+	flex-direction: column;
+	align-items: center;
  }
  .logo-block {
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 20px;
+	align-items: center;
+	margin-bottom: 60px;
  }
  .webstudio {
-	display: block;
+	display: inline-block;
 	margin-bottom: 20px;
-	margin-right: 135px;
+	margin-left: auto;
+	margin-right: auto;
 	padding-top: 0px;
 	padding-bottom: 0px;
  }
 
  .contact-block {
 	display: flex;
-	margin-right: 70px;
+	// margin-right: 70px;
  }
 	
  .address-list {
@@ -82,6 +90,8 @@
  .icon-block {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	margin-bottom: 60px;
  }
  .invitation-block {
 	display: flex;
