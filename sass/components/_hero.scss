@@ -36,11 +36,11 @@
 	padding-bottom: 200px;
 
 	background: linear-gradient(to right, rgba(47,48,58,0.4),
-	rgba(47,48,58,0.4)),url(../img/bg/img_lg@1x.jpg);
+	rgba(47,48,58,0.4)),url(../img/bg/Img_lg@1x.jpg);
 		// retina desktop screen
 		@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
 			background: linear-gradient(to right, rgba(47,48,58,0.4),
-			rgba(47,48,58,0.4)),url(../img/bg/img_lg@2x.jpg);
+			rgba(47,48,58,0.4)),url(../img/bg/Img_lg@2x.jpg);
 		}
  }
 }
