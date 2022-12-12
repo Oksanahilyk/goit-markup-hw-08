@@ -1,7 +1,7 @@
 .footer {
 	background: var(--background-color-dark);
-	// padding-top: 60px;
-	// padding-bottom: 60px;
+	padding-top: 60px;
+	padding-bottom: 60px;
  }
  
  .footer-contact {
@@ -20,8 +20,7 @@
 //  }
  
  .item-contact {
-	margin-left: auto;
-	margin-right: auto;
+	
 	margin-bottom: 9px;
  }
  
@@ -53,22 +52,50 @@
 	 }
  }
  
-//   .container-footer {
-	// display: flex;
-// 	flex-direction: column;
-// 	justify-content: space-between;
-// 	align-items: center;
-//  }
+  .container-footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+@media screen and (width: 1200px) {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: baseline;
+ }
+}
+ 
+
  .all-block {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	@media screen and (width: 768px) {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: baseline;
+		width: 768px;
+		margin-bottom: 60px;
+	}
+	@media screen and (width: 1200px) {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: baseline;
+		width: 600px;
+	}
  }
  .logo-block {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-bottom: 60px;
+	
+	@media screen and (width: 768px) {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+		}
  }
  .webstudio {
 	display: inline-block;
@@ -77,22 +104,60 @@
 	margin-right: auto;
 	padding-top: 0px;
 	padding-bottom: 0px;
+	@media screen and (min-width: 1200px) {
+	margin-left: 0;
+	margin-right: 0;
+	}
+
  }
 
  .contact-block {
 	display: flex;
+	flex-direction: column;
 	// margin-right: 70px;
+	@media screen and (width: 768px) {
+		display: flex;
+		flex-direction: column;
+	}
  }
+
 	
  .address-list {
 	display: flex;
+ }
+ .contact-social {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 60px;
+		@media screen and (width: 768px) {
+		margin-bottom: 0px;
+	}
+	@media screen and (width: 1200px) {
+		margin-bottom: 0px;
+		align-items: flex-start;
+
+	}
  }
  .icon-block {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin-bottom: 60px;
- }
+	@media screen and (width: 768px) {
+		margin-top: 0px;
+	margin-bottom: 0px;
+	}
+	@media screen and (width: 1200px) {
+		display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+		margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 70px;
+	margin-right: 70px;
+	 }
+	}
  .invitation-block {
 	display: flex;
  }

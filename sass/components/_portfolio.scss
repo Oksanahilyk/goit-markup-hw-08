@@ -40,33 +40,58 @@
  
  .button-list {
 	display: flex;
-	justify-content: center;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	gap: 8px;
 	margin-bottom: 50px;
+	padding: 0;
+	@media screen and (width: 768px) {
+	display: flex;
+	justify-content: center;
+	// margin-bottom: 50px;
+	}
+
+	@media screen and (width: 1200px) {
+	display: flex;
+	justify-content: center;
+	// margin-bottom: 50px;
+	}
  }
  
  .button-item {
 	display: block;
  }
- .button-item + .button-item {
-	margin-left: 8px;
- }
+ 
  /* стиль Галереї проєктів */
  .gallary-project {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 	gap: 30px;
+	@media screen and (width: 768px) {
+		display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	gap: 30px;
+	}
+
+	@media screen and (width: 1200px) {
+		display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	}
  }
  .gallary-card {
 	flex-basis: calc((100% - 60px) / 3);
 	background-color: var(--primary-white-color);
  }
  
- .gallary-card:nth-child(3n) {
-	margin-right: 0px;
- }
- .gallary-card:nth-last-child(-n + 3) {
-	margin-bottom: 0px;
- }
+//  .gallary-card:nth-child(3n) {
+// 	margin-right: 0px;
+//  }
+//  .gallary-card:nth-last-child(-n + 3) {
+// 	margin-bottom: 0px;
+//  }
  .gallary-link {
 	display: block;
 	box-shadow: none;
@@ -107,4 +132,13 @@
 	line-height: calc(30 / 16);
 	letter-spacing: 0.03em;
 	color: var(--primary-text-color);
+ }
+ .gallary-thumb {
+	width: 450px;
+		@media screen and (width: 768px) {
+		width: 354px;
+		}
+	@media screen and (width: 1200px) {
+		width: 370px;
+	}
  }

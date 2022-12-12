@@ -41,7 +41,7 @@
         </nav>
         <ul class="list site-contacts">
           <li class="site-contacts__item">
-            <a class="site-contacts__contact" href="mailto:info@devstudio.com">
+            <a class="site-contacts__contact mail" href="mailto:info@devstudio.com">
               <svg class="site-contacts__icon" width="16" height="12">
                 <use href="./img/icons.svg#icon-envelope"></use>
               </svg>
@@ -49,7 +49,7 @@
             </a>
           </li>
           <li class="site-contacts__item">
-            <a class="site-contacts__contact" href="tel:+380961111111">
+            <a class="site-contacts__contact tel" href="tel:+380961111111">
               <svg class="site-contacts__icon" width="10" height="16">
                 <use href="./img/icons.svg#icon-smartphone"></use>
               </svg>
@@ -57,6 +57,20 @@
             </a>
           </li>
         </ul>
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="mobile-close" width="40" height="40">
+          <use href="./img/icons.svg#icon-menu_40px"></use>
+            <!-- <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            ></path> -->
+          </svg>
+        </button>
       </div>
     </header>
     <!-- main -->
@@ -97,12 +111,20 @@
               <a class="list link gallary-link" href="#">
                 <div class="gallary-thumb">
                   <p class="discription">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-                  <img
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="./img/gallery/img1_370.jpg 1x, ./img/gallery/img1_740.jpg 2x" 
+                type="image/jpg">
+                <source media="(min-width: 768px)" srcset="./img/gallery/img1_354.jpg 1x, ./img/gallery/img1_708.jpg 2x" 
+                type="image/jpg">
+                <source media="(min-width: 480px)" srcset="./img/gallery/img1_450.jpg 1x, ./img/gallery/img1_900.jpg 2x" 
+                type="image/jpg">
+                <img
                   class="gallary-photo"
-                  src="./img/technocryk.jpg"
+                  src="./img/gallery/img1_740.jpg"
                   alt="веб-сайт"
-                  width="370"
-                />
+                  />
+                  </picture>
+                  
                 </div>
                 
                 <div class="gallary-projects">
@@ -116,12 +138,21 @@
               <a class="list link gallary-link" href="#">
                 <div class="gallary-thumb">
                   <p class="discription">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-                  <img
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="./img/gallery/img2_370.jpg 1x, ./img/gallery/img2_740.jpg 2x" 
+                type="image/jpg">
+                <source media="(min-width: 768px)" srcset="./img/gallery/img2_354.jpg 1x, ./img/gallery/img2_708.jpg 2x" 
+                type="image/jpg">
+                <source media="(min-width: 480px)" srcset="./img/gallery/img2_450.jpg 1x, ./img/gallery/img2_900.jpg 2x" 
+                type="image/jpg">
+                <img
                   class="gallary-photo"
-                  src="./img/poster.jpg"
+                  src="./img/gallery/img2_740.jpg"
                   alt="дизайн"
-                  width="370"
+                  
                 />
+                  </picture>
+                  
                 </div>
                 
                 <div class="gallary-projects">
@@ -137,12 +168,20 @@
               <a class="list link gallary-link" href="#">
                 <div class="gallary-thumb">
                   <p class="discription">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-                  <img
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="./img/gallery/img3_370.jpg 1x, ./img/gallery/img3_740.jpg 2x" 
+                    type="image/jpg">
+                    <source media="(min-width: 768px)" srcset="./img/gallery/img3_354.jpg 1x, ./img/gallery/img3_708.jpg 2x" 
+                    type="image/jpg">
+                    <source media="(min-width: 480px)" srcset="./img/gallery/img3_450.jpg 1x, ./img/gallery/img3_900.jpg 2x" 
+                    type="image/jpg">
+                    <img
                   class="gallary-photo"
-                  src="./img/restaurant.jpg"
+                  src="./img/gallery/img3_740.jpg"
                   alt="додаток"
-                  width="370"
-                />
+                  />
+                  </picture>
+                  
                 </div>
                 
                 <div class="gallary-projects">
@@ -156,12 +195,20 @@
               <a class="list link gallary-link" href="#">
                 <div class="gallary-thumb">
                   <p class="discription">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-                  <img
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="./img/gallery/img4_370.jpg 1x, ./img/gallery/img4_740.jpg 2x" 
+                    type="image/jpg">
+                    <source media="(min-width: 768px)" srcset="./img/gallery/img4_354.jpg 1x, ./img/gallery/img4_708.jpg 2x" 
+                    type="image/jpg">
+                    <source media="(min-width: 480px)" srcset="./img/gallery/img4_450.jpg 1x, ./img/gallery/img4_900.jpg 2x" 
+                    type="image/jpg">
+                    <img
                   class="gallary-photo"
-                  src="./img/project-prime.jpg"
+                  src="./img/gallery/img4_740.jpg"
                   alt="маркетинг"
-                  width="370"
-                />
+                  />
+                  </picture>
+                  
                 </div>
                 
                 <div class="gallary-projects">
@@ -175,12 +222,21 @@
               <a class="list link gallary-link" href="#">
                 <div class="gallary-thumb">
                   <p class="discription">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-                  <img
+                 
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="./img/gallery/img5_370.jpg 1x, ./img/gallery/img5_740.jpg 2x" 
+                    type="image/jpg">
+                    <source media="(min-width: 768px)" srcset="./img/gallery/img5_354.jpg 1x, ./img/gallery/img5_708.jpg 2x" 
+                    type="image/jpg">
+                    <source media="(min-width: 480px)" srcset="./img/gallery/img5_450.jpg 1x, ./img/gallery/img5_900.jpg 2x" 
+                    type="image/jpg">
+                    <img
                   class="gallary-photo"
-                  src="./img/project-boxes.jpg"
+                  src="./img/gallery/img5_740.jpg"
                   alt="додаток"
-                  width="370"
-                />
+                  />
+                  </picture>
+                  
                 </div>
                 
                 <div class="gallary-projects">
@@ -194,12 +250,20 @@
               <a class="list link gallary-link" href="#">
                 <div class="gallary-thumb">
                   <p class="discription">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-                  <img
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="./img/gallery/img6_370.jpg 1x, ./img/gallery/img6_740.jpg 2x" 
+                    type="image/jpg">
+                    <source media="(min-width: 768px)" srcset="./img/gallery/img6_354.jpg 1x, ./img/gallery/img6_708.jpg 2x" 
+                    type="image/jpg">
+                    <source media="(min-width: 480px)" srcset="./img/gallery/img6_450.jpg 1x, ./img/gallery/img6_900.jpg 2x" 
+                    type="image/jpg">
+                    <img
                   class="gallary-photo"
-                  src="./img/Inspiration.jpg"
+                  src="./img/gallery/img6_740.jpg"
                   alt="веб-сайт"
-                  width="370"
-                />
+                  />
+                  </picture>
+                  
                 </div>
                 
                 <div class="gallary-projects">
@@ -213,12 +277,20 @@
               <a class="list link gallary-link" href="#">
                 <div class="gallary-thumb">
                   <p class="discription">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-                  <img
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="./img/gallery/img7_370.jpg 1x, ./img/gallery/img7_740.jpg 2x" 
+                    type="image/jpg">
+                    <source media="(min-width: 768px)" srcset="./img/gallery/img7_354.jpg 1x, ./img/gallery/img7_708.jpg 2x" 
+                    type="image/jpg">
+                    <source media="(min-width: 480px)" srcset="./img/gallery/img7_450.jpg 1x, ./img/gallery/img7_900.jpg 2x" 
+                    type="image/jpg">
+                    <img
                   class="gallary-photo"
-                  src="./img/magazine.jpg"
+                  src="./img/gallery/img7_740.jpg"
                   alt="дизайн"
-                  width="370"
-                />
+                  />
+                  </picture>
+                  
                 </div>
                
                 <div class="gallary-projects">
@@ -232,12 +304,20 @@
               <a class="list link gallary-link" href="#">
                 <div class="gallary-thumb">
                   <p class="discription">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-                  <img
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="./img/gallery/img8_370.jpg 1x, ./img/gallery/img8_740.jpg 2x" 
+                    type="image/jpg">
+                    <source media="(min-width: 768px)" srcset="./img/gallery/img8_354.jpg 1x, ./img/gallery/img8_708.jpg 2x" 
+                    type="image/jpg">
+                    <source media="(min-width: 480px)" srcset="./img/gallery/img8_450.jpg 1x, ./img/gallery/img8_900.jpg 2x" 
+                    type="image/jpg">
+                    <img
                   class="gallary-photo"
-                  src="./img/project-lab.jpg"
+                  src="./img/gallery/img8_740.jpg"
                   alt="маркетинг"
-                  width="370"
-                />
+                  />
+                  </picture>
+                  
                 </div>
                 
                 <div class="gallary-projects">
@@ -251,12 +331,20 @@
               <a class="list link gallary-link" href="#">
                 <div class="gallary-thumb">
                   <p class="discription">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-                  <img
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="./img/gallery/img9_370.jpg 1x, ./img/gallery/img9_740.jpg 2x" 
+                    type="image/jpg">
+                    <source media="(min-width: 768px)" srcset="./img/gallery/img9_354.jpg 1x, ./img/gallery/img9_708.jpg 2x" 
+                    type="image/jpg">
+                    <source media="(min-width: 480px)" srcset="./img/gallery/img9_450.jpg 1x, ./img/gallery/img9_900.jpg 2x" 
+                    type="image/jpg">
+                    <img
                   class="gallary-photo"
                   src="./img/growing-bussines.jpg"
                   alt="додаток"
-                  width="370"
-                />
+                  />
+                  </picture>
+                  
                 </div>
                
                 <div class="gallary-projects">
@@ -273,14 +361,14 @@
     <footer class="footer section">
       <div class="container container-footer">
         <div class="all-block">
+          
           <div class="logo-block">
+            <address class="contact-block">
             <a href="#" class="logo webstudio">
               Web<span class="logo-studio">Studio</span>
             </a>
-                     
-          <div class="contact-social">
-            <address class="contact-block">
-              <ul class="list">
+          
+              <ul class="contact-social list">
                 <li class="item-contact">
                   <a
                     class="address"
@@ -302,42 +390,43 @@
                 </li>
               </ul>
             </address>
-          </div>
+          </div> 
+        <div class="icon-block">
+          <strong class="title-invitation">приєднуйтесь</strong>
+          <ul class="social-icon list">
+            <li class="social-icon__item">
+              <a href="" class="social-link link">
+                <svg class="social-invitation" width="20" height="20">
+                  <use href="./img/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-icon__item">
+              <a href="" class="social-link link">
+                <svg class="social-invitation" width="20" height="20">
+                  <use href="./img/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-icon__item">
+              <a href="" class="social-link link">
+                <svg class="social-invitation" width="20" height="20">
+                  <use href="./img/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-icon__item">
+              <a href="" class="social-link link">
+                <svg class="social-invitation" width="20" height="20">
+                  <use href="./img/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
-            <div class="icon-block">
-              <strong class="title-invitation">приєднуйтесь</strong>
-              <ul class="social-icon list">
-                <li class="social-icon__item">
-                  <a href="" class="social-link link">
-                    <svg class="social-invitation" width="20" height="20">
-                      <use href="./img/icons.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-icon__item">
-                  <a href="" class="social-link link">
-                    <svg class="social-invitation" width="20" height="20">
-                      <use href="./img/icons.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-icon__item">
-                  <a href="" class="social-link link">
-                    <svg class="social-invitation" width="20" height="20">
-                      <use href="./img/icons.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-icon__item">
-                  <a href="" class="social-link link">
-                    <svg class="social-invitation" width="20" height="20">
-                      <use href="./img/icons.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-                      
+          
+        </div>
+          <!-- Форма модалки -->
           <form class="form">
             <div class="form-field">
               <label for="mail" class="form-mail">Підпишіться на розсилку</label>
@@ -353,5 +442,44 @@
 
       </div>
     </footer>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg class="mobile-close"
+          width="40"
+          height="40"
+        >
+        <use href="./img/icons.svg#icon-close_40px"></use>
+          <!-- <path
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path> -->
+        </svg>
+      </button>
+
+      <ul class="mobile-nav list">
+        <li class="mobile-nav__menu"><a href="./index.html" class="link mobile-nav__secondary">Студія</a></li>
+        <li class="mobile-nav__menu"><a href="#" class="link mobile-nav__current">Портфоліо</a></li>
+        <li class="mobile-nav__menu"><a href="#" class="link mobile-nav__secondary">Контакти</a></li>
+        </ul>
+        <ul class="mobile-contacts list">
+          <li class="mobile-contacts__item"><a href="tel.:+380961111111" class=" link mobile-tel">+38 096 111 11 11</a></li>
+          <li class="mobile-contacts__item"><a href="mailto:info@devstudio.com" class="link mobile-mail">info@devstudio.com</a></li>
+        </ul>
+        <ul class="mobile-cocials list">
+          <li class="mobile-cocials__item"><a href="" class="link mobile-cocials__icon">Instagram</a></li>
+          <li class="mobile-cocials__item"><a href="" class="link mobile-cocials__icon">Twitter</a></li>
+          <li class="mobile-cocials__item"><a href="" class="link mobile-cocials__icon">Facebook</a></li>
+          <li class="mobile-cocials__item"><a href="" class="link mobile-cocials__icon">LinkedIn</a></li>
+        </ul>
+    </div>
+    <script src="./js/modal.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
