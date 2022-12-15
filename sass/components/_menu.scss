@@ -68,12 +68,12 @@
 
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
-  @media screen and (max-width: 479px) {
-    width: 150vw;
-    height: 100vh;
-    padding: 32px;
-    transform: translateX(160%);
-  }
+  // @media screen and (max-width: 479px) {
+  //   width: 150vw;
+  //   height: 100vh;
+  //   padding: 32px;
+  //   transform: translateX(160%);
+  // }
 }
 
 .menu-container.is-open {
