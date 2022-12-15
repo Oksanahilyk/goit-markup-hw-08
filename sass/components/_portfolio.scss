@@ -45,13 +45,13 @@
 	gap: 8px;
 	margin-bottom: 50px;
 	padding: 0;
-	@media screen and (width: 768px) {
+	@media screen and (minwidth: 768px) {
 	display: flex;
 	justify-content: center;
 	// margin-bottom: 50px;
 	}
 
-	@media screen and (width: 1200px) {
+	@media screen and (min-width: 1200px) {
 	display: flex;
 	justify-content: center;
 	// margin-bottom: 50px;
@@ -68,14 +68,14 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	gap: 30px;
-	@media screen and (width: 768px) {
+	@media screen and (min-width: 768px) {
 		display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-start;
 	gap: 30px;
 	}
 
-	@media screen and (width: 1200px) {
+	@media screen and (min-width: 1200px) {
 		display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
@@ -135,10 +135,10 @@
  }
  .gallary-thumb {
 	width: 450px;
-		@media screen and (width: 768px) {
+		@media screen and (min-width: 768px) {
 		width: 354px;
 		}
-	@media screen and (width: 1200px) {
+	@media screen and (min-width: 1200px) {
 		width: 370px;
 	}
  }

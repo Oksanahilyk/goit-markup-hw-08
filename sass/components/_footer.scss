@@ -2,7 +2,7 @@
 	background: var(--background-color-dark);
 	padding-top: 60px;
 	padding-bottom: 60px;
- }
+}
  
  .footer-contact {
 	font-family: var(--main-font);
@@ -53,11 +53,17 @@
  }
  
   .container-footer {
-	display: flex;
+	// display: flex;
+	// flex-direction: column;
+	// justify-content: space-between;
+	// align-items: center;
+	@media screen and (max-width: 480px), (min-width: 767px) {
+		display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-@media screen and (width: 1200px) {
+	}
+@media screen and (min-width: 1200px) {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -67,10 +73,13 @@
  
 
  .all-block {
+	@media screen and (max-width: 480px), (min-width: 767px) {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	@media screen and (width: 768px) {
+	}
+	
+	@media screen and (min-width: 768px) {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
@@ -78,7 +87,7 @@
 		width: 768px;
 		margin-bottom: 60px;
 	}
-	@media screen and (width: 1200px) {
+	@media screen and (min-width: 1200px) {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
@@ -91,7 +100,7 @@
 	flex-direction: column;
 	align-items: center;
 	
-	@media screen and (width: 768px) {
+	@media screen and (min-width: 768px) {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -115,7 +124,7 @@
 	display: flex;
 	flex-direction: column;
 	// margin-right: 70px;
-	@media screen and (width: 768px) {
+	@media screen and (min-width: 768px) {
 		display: flex;
 		flex-direction: column;
 	}
@@ -130,10 +139,10 @@
 	flex-direction: column;
 	align-items: center;
 	margin-bottom: 60px;
-		@media screen and (width: 768px) {
+		@media screen and (min-width: 768px) {
 		margin-bottom: 0px;
 	}
-	@media screen and (width: 1200px) {
+	@media screen and (min-width: 1200px) {
 		margin-bottom: 0px;
 		align-items: flex-start;
 
@@ -144,11 +153,11 @@
 	flex-direction: column;
 	align-items: center;
 	margin-bottom: 60px;
-	@media screen and (width: 768px) {
+	@media screen and (min-width: 768px) {
 		margin-top: 0px;
 	margin-bottom: 0px;
 	}
-	@media screen and (width: 1200px) {
+	@media screen and (min-width: 1200px) {
 		display: flex;
 	flex-direction: column;
 	align-items: flex-start;

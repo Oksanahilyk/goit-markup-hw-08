@@ -104,7 +104,7 @@
  line-height: 14px;
  letter-spacing: 0.01em;
  color: rgba(117, 117, 117, 0.5);
- @media screen and (width: 1200px) {
+ @media screen and (min-width: 1200px) {
 	width: 448px;
  }
  }
@@ -193,7 +193,7 @@ display: inline-block;
  border-radius: 4px;
  cursor: pointer;
 
- @media screen and (width: 1200px) {
+ @media screen and (min-width: 1200px) {
 	width: 448px;
  }
 }
