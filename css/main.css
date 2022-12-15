@@ -55,9 +55,9 @@ body {
   padding: 60px 0px;
   margin: auto;
 }
-@media screen and (max-width: 479) {
+@media screen and (max-width: 479px) {
   .section {
-    width: 320;
+    width: 480px;
   }
 }
 @media screen and (min-width: 1200px) {
