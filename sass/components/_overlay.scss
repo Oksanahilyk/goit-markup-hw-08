@@ -42,6 +42,10 @@
  line-height: calc(28 / 18);
  letter-spacing: 0.03em;
  color: var(--primary-white-color);
+ @media screen and (max-width: 467px) {
+	top: 40%;
+	font-size: 15px;
+ }
  }
  .gallary-link {
 	&:hover, &:focus {

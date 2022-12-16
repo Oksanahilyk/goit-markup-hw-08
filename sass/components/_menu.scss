@@ -151,6 +151,9 @@ line-height: calc(40 / 34);
 /* identical to box height */
 letter-spacing: 0.02em;
 color: var(--accent-color);
+@media screen and (max-width: 479px) {
+  font-size: 28px;
+}
 }
 .mobile-mail {
  font-family: 'Roboto';
@@ -170,4 +173,7 @@ line-height: calc(22 / 18);
 /* identical to box height, or 122% */
 letter-spacing: 0.02em;
 color: var(--accent-color);
+@media screen and (max-width: 479px) {
+  font-size: 13px;
+}
 }

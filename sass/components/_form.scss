@@ -65,6 +65,10 @@
  font-size: 16px;
  line-height: 20px;
  color: rgba(255, 255, 255, 0.6);
+
+ @media screen and (max-width: 479px) {
+	width: 297px;
+ }
  @media screen and (min-width: 1200px) {
 	width: 358px;
  }
@@ -104,6 +108,10 @@
  line-height: 14px;
  letter-spacing: 0.01em;
  color: rgba(117, 117, 117, 0.5);
+ @media screen and (max-width: 479px) {
+	width: 250px;
+ }
+
  @media screen and (min-width: 1200px) {
 	width: 448px;
  }
@@ -173,6 +181,9 @@ display: inline-block;
  line-height: calc(24 / 12);
  letter-spacing: 0.03em;
  color: var(--primary-text-color);
+ @media screen and (max-width: 479px) {
+	font-size: 7px;
+ }
  }
  .form-block {
 	  position: relative;
@@ -193,6 +204,9 @@ display: inline-block;
  border-radius: 4px;
  cursor: pointer;
 
+ @media screen and (max-width: 479px) {
+	width: 250px;
+ }
  @media screen and (min-width: 1200px) {
 	width: 448px;
  }

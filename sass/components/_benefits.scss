@@ -42,6 +42,12 @@
  }
  .benefits__item {
 	width: 450px;
+
+	
+	@media screen and (max-width: 479px) {
+		width: 270px;
+	}
+	
 	@media screen and (min-width: 768px) {
 		width: 354px
 	}
@@ -59,6 +65,12 @@
 	height: 120px;
 	background: var(--background-color-gray);
 	border-radius: 4px;
+
+	
+	@media screen and (max-width: 479px) {
+		width: 270px;
+	}
+
 	@media screen and (min-width: 768px) {
 		width: 354px;
 	 }
